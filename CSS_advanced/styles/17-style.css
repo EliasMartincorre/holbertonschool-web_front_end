@@ -229,7 +229,7 @@ a {
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
+
 }
 
 h1,
@@ -272,10 +272,7 @@ a {
 }
 
 .section {
-    padding-left: var(--section-padding);
-    padding-right: var(--section-padding);
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
+    padding: var(--section-padding);
 }
 
 .section-header{
