@@ -437,7 +437,7 @@ ul.row {
     background-color: var(--color-primary);
     text-decoration: none;
 }
-.card-testimonial .card-avatar {
+.card-testimonial  {
     text-align: center;
 }
 
@@ -449,6 +449,6 @@ ul.row {
 
 .card-testimonial .card-quote cite {
     display: block;
-    pad: 1rem;
+    padding-top: 1rem;
     color : var(--color-primary);
 }
