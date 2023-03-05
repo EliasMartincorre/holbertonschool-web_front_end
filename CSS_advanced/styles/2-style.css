@@ -1,8 +1,13 @@
 :root{
-    
+    --color-primary : #d73953;
+    --color-black : #090909;
+    --color-white : #ffffff;
+    --color-light-grey : #f3f3f3;
+    --color-dark-grey : #353535;
+    --text-color : color-black;
 }
 body, a {
-    color: #161616;
+    text : var(--text-color);
 }
 
 visually-hidden {
@@ -10,5 +15,5 @@ visually-hidden {
 }
 
 .card-category, .section-tagline {
-    color: #d73953;
+    color : var(--color-primary);
 }
