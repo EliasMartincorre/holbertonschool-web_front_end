@@ -9,6 +9,6 @@ visually-hidden {
     display: none;
 }
 
-card-categoty, section-tagline {
+.card-categoty, .section-tagline {
     color: #d73953;
 }
