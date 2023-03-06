@@ -380,8 +380,12 @@ a:active {
 
 .nav .nav-link{
     display: block;
-    padding: 0.5rem 1rem;
+}
+.nav .nav-link::before{
     content: empty;
+}
+.nav-item-link::before{
+    padding: 0.5rem 1rem;
     top: 0;
     left: 0;
     right: 0;
@@ -390,7 +394,7 @@ a:active {
     height: 20%;
 }
 
-.nav .nav-link:hover {
+.nav .nav-item:hover .nav-link::before{
     color: var(--color-white);
     background-color: var(--color-primary);
     width: 100%; 
