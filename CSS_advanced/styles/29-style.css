@@ -382,12 +382,13 @@ a:active {
     display: block;
 }
 .nav .nav-link::before{
-    content: empty;
+    content: "";
     position: absolute;
     background-color: var(--color-white);
     width: 0;
-}
-.nav-item-link::before{
+    bottom: 0;
+    left: 0;
+
     padding: 0.5rem 1rem;
     width: 0;
     height: 0.2rem;
