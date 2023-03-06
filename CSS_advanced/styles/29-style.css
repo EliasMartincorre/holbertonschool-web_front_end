@@ -381,7 +381,7 @@ a:active {
 .nav .nav-link{
     display: block;
 }
-.nav .nav-link{
+.nav .nav-link::before{
     content: empty;
     position: absolute;
     background-color: var(--color-white);
