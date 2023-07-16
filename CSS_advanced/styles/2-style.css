@@ -7,10 +7,10 @@
     --text-color : color-black;
 }
 body, a {
-    text : var(--text-color);
+    color : var(--text-color);
 }
 
-visually-hidden {
+.visually-hidden {
     display: none;
 }
 
